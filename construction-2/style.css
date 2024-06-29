@@ -1,0 +1,105 @@
+*{
+margin: 0;    
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+  .header{
+    position: fixed;
+    top: 50px;
+    left: 60px;
+  }
+  .header h1{
+  color: rgb(211, 231, 194);  
+  }
+  .description{
+  position: fixed;
+  margin-top: 120px;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  width: 40%;
+  }
+  .description h4{
+  color: cornsilk;  
+  }
+  .location{
+  position: fixed;
+  margin-top: 150px;
+  margin-left: 45px;
+  width: 30%;
+}
+.location h4{
+    color: cornsilk;
+}
+.about{
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.about p{
+    font-size: medium;
+    font-weight: lighter;
+ color: cornsilk;   
+}
+.button-1{
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 50px;
+    height: 35px;
+    max-width: 20%;
+}
+.button-2{
+position: fixed; 
+margin-top: 370px;   
+margin-left: 50px;
+height: 35px;
+max-width: 20%;
+}
+.link-container{
+position: fixed;
+margin-top: 430px;
+margin-left: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 23%;
+}
+.link{
+  width: 50px;
+  height: 50px;
+}
+     
+.container{
+position: fixed;
+height: 100%;    
+width: 100%;
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+transition: 5s;
+animation-name: animate;
+animation-direction:alternate-reverse;
+animation-duration: 30s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+animation-play-state:running;
+animation-timing-function:ease-in-out;
+}
+@keyframes animate{
+ 0%{
+  background-image: url(./images/image-7.jpg);  
+ }20%{
+ background-image: url(./images/image-8.jpg);   
+ }40%{
+ background-image: url(./images/image-9.jpg);   
+ } 60%{
+  background-image: url(./images/image-10.jfif);  
+ }80%{
+ background-image: url(./images/image-11.jfif);   
+ }100%{
+ background-image: url(./images/image-12.jpg);   
+ } 
+}
